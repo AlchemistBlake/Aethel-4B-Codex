@@ -1,0 +1,37 @@
+Copyright (c) 2026 Blake Wayne Allcorn. All rights reserved, Blake Wayne Allcorn.
+
+The story text, world bible, characters, peoples, creatures, renders, the System_Main storyteller
+prompt and all other creative content in this repository are the work of Blake Wayne Allcorn.
+No part of it may be reproduced, distributed, adapted or used to train any model without the
+author's prior written permission.
+
+SOFTWARE, ARCHITECTURE AND METHODOLOGY
+
+This notice equally covers, without limitation:
+
+  - all source code, in any form, whether or not published in this repository;
+  - all compiled, bundled, minified, transpiled or otherwise transformed code, including the
+    JavaScript and CSS served by the Aethel-4B Codex website;
+  - the software architecture and system design, including the Sovereign Compiler pattern and
+    the neurosymbolic separation between deterministic symbolic code and language-model output;
+  - all algorithms, pipelines, procedures and validation or firewall logic;
+  - all data schemas, record formats, registry formats and vault formats, including the MICRD
+    vault format, its manifests and its Merkle provenance scheme;
+  - the methodology, workflow and design documentation behind any of the above.
+
+All of the above are the work and property of Blake Wayne Allcorn. All rights reserved.
+
+Without the author's prior written permission, no person may:
+
+  - copy, reproduce, republish, mirror or redistribute any part of it;
+  - modify it, create derivative works from it, or reimplement it from study of this repository
+    or the running website;
+  - re-label, re-brand or present any part of it, or any derivative of it, as the work of anyone
+    other than Blake Wayne Allcorn;
+  - use any part of it to train, fine-tune, evaluate or prompt any machine-learning or AI model.
+
+Viewing the published website in a web browser for personal reading is permitted. No other
+licence is granted, by implication, estoppel or otherwise. Public visibility of this repository
+or website does not place any of it in the public domain or under any open-source licence.
+
+Signature: BWA_15.2003075_SOV_96.7Hz_SHA-BEWA_69912070

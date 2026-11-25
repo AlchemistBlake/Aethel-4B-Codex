@@ -1,0 +1,744 @@
+{
+  "format": "AETHEL-CODEX-MANIFEST/1",
+  "title": "Aethel-4B Codex",
+  "provenance": {
+    "author": "Blake Wayne Allcorn",
+    "signature": "BWA_15.2003075_SOV_96.7Hz_SHA-BEWA_69912070",
+    "license": "All rights reserved, Blake Wayne Allcorn"
+  },
+  "merkle": {
+    "scheme": "SHA-256, leaf = H(0x00 || JCS(record)), node = H(0x01 || L || R), odd node promoted",
+    "root": "e6f81350775d6a4907917c72d6e6ea10904769743b852e417bcf5c37423121cd",
+    "leaves": 113
+  },
+  "vault": {
+    "file": "vault/aethel.micrd",
+    "format": "MICRD/1.0",
+    "sha256": "236fa339dece9f3598fa12a4b7fc16e0a71f898554108b797c5fc2b77712adae",
+    "bytes": 85875,
+    "directory_digest": "d01ca0e97f8d1ebe2d2ee4225245d0310d1e646c18f138dd9d2b06daee65e43f",
+    "prologue": "MICRD/1.0|S2|N=000113|DIR=000000064|DLN=000018080|PAY=000018144",
+    "footer": "MICRD_END|0000085724|d01ca0e97f8d1ebe2d2ee4225245d0310d1e646c18f138dd9d2b06daee65e43f|e6f81350775d6a4907917c72d6e6ea10904769743b852e417bcf5c37423121cd"
+  },
+  "system_main": {
+    "file": "storyteller/system_main.txt",
+    "sha256": "86ec9d453ce8c40c040f7a93279e5dcfa4366361348fe00f5a7500edc67ad998",
+    "bytes": 8700,
+    "complete": true,
+    "pinned_sha256": "86ec9d453ce8c40c040f7a93279e5dcfa4366361348fe00f5a7500edc67ad998",
+    "pinned_match": true
+  },
+  "voice": {
+    "engine": "@mlc-ai/web-llm",
+    "version": "0.2.89",
+    "models": [
+      "Qwen2.5-3B-Instruct-q4f16_1-MLC",
+      "Llama-3.2-3B-Instruct-q4f16_1-MLC",
+      "Llama-3.2-1B-Instruct-q4f16_1-MLC",
+      "Llama-3.1-8B-Instruct-q4f16_1-MLC"
+    ]
+  },
+  "planes": {
+    "A": 3,
+    "B": 53,
+    "C": 42,
+    "D": 15
+  },
+  "canon_flags": {
+    "total": 22,
+    "discrepancies": 1
+  },
+  "alias_collisions": [
+    {
+      "phrase": "vesper",
+      "kept": "character.sera-vash",
+      "dropped": "hybrid.vespers"
+    }
+  ],
+  "records": [
+    {
+      "id": "chapter.01",
+      "plane": "A",
+      "kind": "chapter",
+      "leaf": "3b3039eaf7a613646311b3705f50a4ae6fe17c0b53194f54ff1afa04d35f8ebe"
+    },
+    {
+      "id": "chapter.02",
+      "plane": "A",
+      "kind": "chapter",
+      "leaf": "c5c1e6002040abb659d9c578431fc5eb24c0852527502b1185fdfc7042b7d4a3"
+    },
+    {
+      "id": "character.alkor-seven",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "6ebbc23a96d8e56e790a9413c498b906e6cd3dd8c8580ab3c77a9f7376a3e5e6"
+    },
+    {
+      "id": "character.baryon-nine",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "d31450e39459970ff984d7c519914f6f019144bc9bb0a9e8f33d32795bb363cb"
+    },
+    {
+      "id": "character.brek-gron",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "d4c6e8f461077a089c783ef0691971a322171a5668d12ac4e34283a74a1e9288"
+    },
+    {
+      "id": "character.chorus-root-04",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "8b62d1fedc79d54af268776c11a820a4fd5f1f45a17d6402de81501e345a8618"
+    },
+    {
+      "id": "character.iron-blood-vault-twelve",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "53b3a7c7c5071f3413c4799f93ba995bc3a989044be34e9f7362d745926cd847"
+    },
+    {
+      "id": "character.kael-thon",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "bb1b6a8e84ab541b2d03be0b77586489ed849e7c409f30b51c3a18fc807b93cf"
+    },
+    {
+      "id": "character.sera-vash",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "689175215c3ca02c6d51eb96b536b19271624ec43e31c562e1aed6eaef03e55f"
+    },
+    {
+      "id": "character.vora-nai",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "39b8fcf5837f6e9ffc7fb7760650cab30e8d9f8aab82b5c7e907df80e7e6c32d"
+    },
+    {
+      "id": "character.zhur-09",
+      "plane": "B",
+      "kind": "character",
+      "leaf": "6bc008404e24aa39772a33cf7e8583cd028d74b6d59528d63af2697fa7a068f1"
+    },
+    {
+      "id": "chronicle.seed",
+      "plane": "A",
+      "kind": "chronicle-seed",
+      "leaf": "69dd603a374a520a700b6d94da33643f493a30b8400504bc288722a365d4878e"
+    },
+    {
+      "id": "conflict.narrative-01",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "a8f4cecaef57469ac9623e20fcad1cae461fdc8b4140a06228ca49999c6e92ef"
+    },
+    {
+      "id": "conflict.narrative-02",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "fc251b2dee8205e0888defafd3d388dec7fa0e9c65c1d0006b49661e2cfa6dc9"
+    },
+    {
+      "id": "conflict.narrative-03",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "f3988e8f634891c3d3a050c7c16838ed6e4896e345c8c42f8e9df3e89ca31bd8"
+    },
+    {
+      "id": "conflict.narrative-04",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "29d9e6cfe846108756913a183ac90d951f13ff60e8a81b88d7d9eee3959d837f"
+    },
+    {
+      "id": "conflict.narrative-05",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "607ce63c79aa65d1ea447fc1cb87ad780f942291b118e47080b47223beca6887"
+    },
+    {
+      "id": "conflict.narrative-06",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "3318d9860fdeef892676e49d5613e1ac5e525ddceadaa529fbaa2645768d7716"
+    },
+    {
+      "id": "conflict.narrative-07",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "150cf9c35c5a1acaa8b384e4e1324be90c447bbb050403b6da1a6481bdf22a2a"
+    },
+    {
+      "id": "conflict.narrative-08",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "8593a2afe22277e5bcc4957097b89091b3e34f5eadac247dbbdd76e4110b1210"
+    },
+    {
+      "id": "conflict.narrative-09",
+      "plane": "D",
+      "kind": "conflict",
+      "leaf": "2af4473fcec614eec91f4b82b6cf4c40bbf79721f2a6c0e83edd930deece5c49"
+    },
+    {
+      "id": "conflict.numeric-01",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "0dcf4662e2c0acfe27aea47996b3f31176fc99eaafddf4846aec76503b84233e"
+    },
+    {
+      "id": "conflict.numeric-02",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "842dbdc829c1e8f912cc50a6815a7671a7236cd970c6fa81cb83eda0a916509b"
+    },
+    {
+      "id": "conflict.numeric-03",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "1bda7145ab840069d5304c8df0166f20c1b4d18c5e4ed0517e5faf21c4243ea4"
+    },
+    {
+      "id": "conflict.numeric-04",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "95ed7f4dde7476cf5d0f6d404fa25b54d04a2a285190378bbaf6add4090cbaf4"
+    },
+    {
+      "id": "conflict.numeric-05",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "5d40bb5f8c7164db48af8901355e396419cff192e06c44589ac377e76edf18d9"
+    },
+    {
+      "id": "conflict.numeric-06",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "b017c33687cd807b5e0ea0a427a4b482dec56ed135cba84236fa4f63534af876"
+    },
+    {
+      "id": "conflict.numeric-07",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "d4d697051c341a3159ecbf7600d8a2f855e5408e12f8ccb50defccb83cfcce1f"
+    },
+    {
+      "id": "conflict.numeric-08",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "7f01d0a6f8a842876be56743b33d4685368e4040e12e96841e073e09e93c6199"
+    },
+    {
+      "id": "conflict.numeric-09",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "aa4f50641bd534b47b3827af3bfb03df68f3dab568063a2e03665f6ab499059f"
+    },
+    {
+      "id": "conflict.numeric-10",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "0aa2a420d968c2b0bfc1b067130019698c8d95dfeb5347c2f719c918504fe502"
+    },
+    {
+      "id": "conflict.numeric-11",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "a19c6b98e104e7c765943f5ce7463bb2b130ed85192717a84f8bc3966d68b898"
+    },
+    {
+      "id": "conflict.numeric-12",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "e7d869fbe9c332a696adc876ba3974b0bfa8bb78ad89e080c89d691a5c664f61"
+    },
+    {
+      "id": "conflict.numeric-13",
+      "plane": "C",
+      "kind": "conflict",
+      "leaf": "10866f1ba42b94852f98d7541cb549fe79a2a78db51e77890e13c21f246b6070"
+    },
+    {
+      "id": "fauna.baryon-gorger",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "40236df947dfd2c09744c87560598d2cbea794cbdc10e83ef5ae2980bde8328e"
+    },
+    {
+      "id": "fauna.basalt-mangrove-mega-spires",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "6977de9aa3d0b3c702e17288815b309d1361089471416575d91d3e9b02cd29d0"
+    },
+    {
+      "id": "fauna.canopy-pendulum-viper",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "c54862f2d94c19a313fb88eb469a3f1b33560467bc1a731504e13fde7d6a4bc0"
+    },
+    {
+      "id": "fauna.cloud-skiff-manta",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "2524a6c9864dd4de92e78145b18608caab34419e3a6a179889f86ed7babf7859"
+    },
+    {
+      "id": "fauna.gale-shrike",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "7ef0ab840820645bdaac2f157921c750c833cae26a298fc771cafe14f5e9a49d"
+    },
+    {
+      "id": "fauna.glass-pinion-lance-hawk",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "eddc38ea4381c80145d913f54d47a91799d4a50df3642b98b89be46ace2e9d4a"
+    },
+    {
+      "id": "fauna.lorentz-stalker",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "a4160581757b64506cc2e38d8cb4ab02ca900ea562b1fb2ec3aa4205ddf22e85"
+    },
+    {
+      "id": "fauna.magma-borer-wyrm",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "9b68e8e5552514be5929aaabe031ec4f218404d53412fb569214e7e88c0f6193"
+    },
+    {
+      "id": "fauna.nadir-leviathan",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "450991e2c94239f97ccc2e99b30bb86f4a172e6b894bf5c2905d4d636f8bac62"
+    },
+    {
+      "id": "fauna.prism-shell-strider",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "c539a993958017d57349de004a75e39dd211d4f2735eacc22bb1c1bcf9a3c087"
+    },
+    {
+      "id": "fauna.sinkhole-crawler",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "304b99fcc95d0792dafc49a7abbbe5f313aa9bd414d421ca0bad64bebb118aca"
+    },
+    {
+      "id": "fauna.whirlpool-siphon-kraken",
+      "plane": "B",
+      "kind": "fauna",
+      "leaf": "7c4dc22b39bed9ef5dfc0b12759915c40149e7280ed143d129f35832a734a638"
+    },
+    {
+      "id": "hybrid.abyssal-vor",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "9635e7d051ea5c7667f14e70fe83c9ebd3c742ed327e23a1ec4335177b65e430"
+    },
+    {
+      "id": "hybrid.cordy-vael",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "0ab903bd494bb0dc7896171957a782ab93c6f11991dd075f61c3e16a80697b4f"
+    },
+    {
+      "id": "hybrid.fulgar-krel",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "cc70c928ed650d1bd1c4031a8f5bbbd061dc718f9b955fa8424d5db06d94c6b8"
+    },
+    {
+      "id": "hybrid.iron-bloods",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "ec2a848bdd54af1dd325615d60e773b3e48ddb3dfbe53c6725d5a892e8aa8240"
+    },
+    {
+      "id": "hybrid.nadir-seers",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "6b2804fa4777e4a855ffe8221d2784daa15a2d5db29504cd6a086149ecd90672"
+    },
+    {
+      "id": "hybrid.null-gyros",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "5ad303a1b5523a27c7c1e4d4c317bbc84de058c234fc60562da7615468d4126e"
+    },
+    {
+      "id": "hybrid.slag-vex",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "8203304522daabb6015e35fe1a0536d9401becd4f1748f379a3906dba6e470bb"
+    },
+    {
+      "id": "hybrid.vespers",
+      "plane": "B",
+      "kind": "hybrid",
+      "leaf": "6bc94e4be18b30d3887f4f44c298e7bd8bb5a2e90b1f95ed64024382e792b48e"
+    },
+    {
+      "id": "laws.fauna.baryon-gorger",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "45e0d9f7bc1f1f373c89bedc00ea0ba217291791cff13a4f0e00e79c9f9e3211"
+    },
+    {
+      "id": "laws.fauna.basalt-mangrove-mega-spires",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "2f296a368ab74a9d7d413a6d07863faa5e5e7ba9fd71ab3e1879d50300c90a58"
+    },
+    {
+      "id": "laws.fauna.canopy-pendulum-viper",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "da9ff869c0684233c58bf74fc02962664ddffd5bdeeda4f682dca8452df1ec9d"
+    },
+    {
+      "id": "laws.fauna.cloud-skiff-manta",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "79afefc9b5c023b8af962d8f28dc995cf3e0e8019d24e85f51075bfe0c2adb6c"
+    },
+    {
+      "id": "laws.fauna.gale-shrike",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "a5c2fdce460b05f4b90d9823dafd0db814e07f62a62ccabea155351708a62b41"
+    },
+    {
+      "id": "laws.fauna.glass-pinion-lance-hawk",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "5620fabf5e372b421c3c871c6c1d54f24293491d7a8a1aab7461ee4affe2c8cb"
+    },
+    {
+      "id": "laws.fauna.lorentz-stalker",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "54d08707c8fda130b25c8ce019ade87f1ce9de9dd3817c15f802388172af337b"
+    },
+    {
+      "id": "laws.fauna.magma-borer-wyrm",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "b0d197387206704934afc146e0607c986df891a33f4281283be1047ddd94b76f"
+    },
+    {
+      "id": "laws.fauna.nadir-leviathan",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "f973aa727dc16d4401003646d851eeaba9a9feaf16de3363d4f6fea797673498"
+    },
+    {
+      "id": "laws.fauna.prism-shell-strider",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "6566d478566565fe9af7e2b22e47b78f774f26fbad20b8c7b6ce933682a4f67c"
+    },
+    {
+      "id": "laws.fauna.sinkhole-crawler",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "8fed4f29a1f1274f4288dc77f325ef7beb3830dfcdec668f453f855ea124befe"
+    },
+    {
+      "id": "laws.fauna.whirlpool-siphon-kraken",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "e73274a6220d07d716b9dfb38438e16ed5e634dd3322278137618eb50ede6c5a"
+    },
+    {
+      "id": "laws.hybrid.abyssal-vor",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "313276a58a97fadcb0bfa1d203bf1d1c4211fc9f1fa3427d880f2930fbf11d36"
+    },
+    {
+      "id": "laws.hybrid.cordy-vael",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "7a49c5bb2b5af1be9a1bca83790ae0744149dce0247dd11307c853a39a689507"
+    },
+    {
+      "id": "laws.hybrid.fulgar-krel",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "0e54846e6188d5ded7065fcb238ac1dd121c2efaa140688d557066b49b1a5828"
+    },
+    {
+      "id": "laws.hybrid.iron-bloods",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "865d26148b7a79e75c0f851bcf544fecc1c71fc60ea116872a4b6150c723c1d6"
+    },
+    {
+      "id": "laws.hybrid.nadir-seers",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "2d80bbb77bf39cdb04948722b1ae2a3e29da15d5822fc65b698e463912137629"
+    },
+    {
+      "id": "laws.hybrid.null-gyros",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "416c40da9788417be648469e5a0cdac19f6b2b3c806c66d916cc966620eabd72"
+    },
+    {
+      "id": "laws.hybrid.slag-vex",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "0781a6af3cda55b6c1bafd227380608b14cba1cbeca45fc4a8b53a673a7acd6a"
+    },
+    {
+      "id": "laws.hybrid.vespers",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "85256ba3c8b3333bfe370670b6485e7336e9b8dc455b3be2942f849eeb9354ff"
+    },
+    {
+      "id": "laws.race.aethel-vael",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "6fb12f3d82cb88cc8da50855e8809e0bef7ee12bb4181162c664a8d142cb04a9"
+    },
+    {
+      "id": "laws.race.auror-sith",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "4350f2c0b8751e22be34258e1465407429896ace228912e047954b241df74c2c"
+    },
+    {
+      "id": "laws.race.khor-gron",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "06d4bd433f08fb9ba2ebd4c84bd3d6a950bb37d222e1e92bcb71e4434ab75734"
+    },
+    {
+      "id": "laws.race.kolvax",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "c928b8745697cdb20e3ed9acb8fa618e7ae355a350a7ea3545b072beeb3e5b60"
+    },
+    {
+      "id": "laws.race.myco-choir",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "24ba7fb11f615de5ac01267bc57c5fc986ff56cceb62a6c7e80fd6f90fc280e5"
+    },
+    {
+      "id": "laws.race.osmir-dreg",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "db88412a3817b2d45ea7e083aa4c7cc4459ecf3b701a13188184720c7b8eafe1"
+    },
+    {
+      "id": "laws.race.siphon-naiad",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "9e54b844eb8ef036fead6711e945349415e3e8abe25546b9713d0cb8247a1e50"
+    },
+    {
+      "id": "laws.race.zephyr-krel",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "53e281644c26a5692622c06c004769be2a3b2360c836e041212d222161347c3f"
+    },
+    {
+      "id": "laws.world",
+      "plane": "C",
+      "kind": "laws",
+      "leaf": "e70c82c86bbff2567b25e7fd88fe7af7ec6e044db90458908370314e26323271"
+    },
+    {
+      "id": "location.baryon-spike",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "fb5c5cb256b171bbf00420dd5103f7f862441b6847fec86a1dda853f84edc31b"
+    },
+    {
+      "id": "location.eastern-fault-ramp",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "c414bfc1dea4793ddba3bf347a42ee914e5ed50838db3bd6f311ab992ad484f2"
+    },
+    {
+      "id": "location.karst-vault-stratum",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "3d9c2e81f9ad00fe460ddf7eaf194a1b15c741dad616bf36003e0f98706bcd86"
+    },
+    {
+      "id": "location.perovskite-shear-zone",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "64681f9193214414f289b92b7d813e8aaca642100ccfde9b7f134dd6ff3c19e2"
+    },
+    {
+      "id": "location.polar-calderas",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "25be07583aeb4ad73b73891d4cd334e1917cca7f9c5bb5b9e4ea46de174ed53b"
+    },
+    {
+      "id": "location.relay-pylon",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "7923906d5fe2c94942da11b08a7ba7d8959e6adefb926edf9c7eedc8863b85ab"
+    },
+    {
+      "id": "location.sinkhole-four",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "6c86712998327e5da8a92e2ebe0b2a258a68fb3e10415e7492240421b84b221b"
+    },
+    {
+      "id": "location.spike-cooling-trench",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "348a072e841fec76efe839f2ec9f153b38df44eb0714e231201d71c59c4bff41"
+    },
+    {
+      "id": "location.spike-intake-tunnel",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "ad8b2074b6f43d407a9fd6fedd247299df0b3a23b00ca3165da6ae9845c9b830"
+    },
+    {
+      "id": "location.spire-seven",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "defe25d38c2ff2f3e028514dc2110f98cbd91905415f90f8cbf7d01895dfed20"
+    },
+    {
+      "id": "location.spire-seven-terminator-gorge",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "30432bf5aa5fc0f84fb6156b1ce0ca5e6c13f3193c3465c7f8849252d5a978a2"
+    },
+    {
+      "id": "location.vault-four",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "ea576870cac68937679c7d528c0a0f77db2eceb448078cdd19f67b068706d759"
+    },
+    {
+      "id": "location.zenith-canopy",
+      "plane": "B",
+      "kind": "location",
+      "leaf": "9e9c32ea5c47ae0f53fed0d0cc3fd9089da111bf2524ccf90633908e66881067"
+    },
+    {
+      "id": "race.aethel-vael",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "6491dec751e99cddf0cec3c1fac5e90513c5cd0ac1823b51308bd68bccfd5cf6"
+    },
+    {
+      "id": "race.auror-sith",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "1626627e810420f266c0841141ebe29a9a8c840c3d3f4c38176cd4380e522fa7"
+    },
+    {
+      "id": "race.khor-gron",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "e63782de57f103212cc717c3a8576e03530e2736966aba08cf4135a9229ebe11"
+    },
+    {
+      "id": "race.kolvax",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "13f5a0a8c55d029a33069afba25280ed534509b0dbb4d0f0bcedeeff55444151"
+    },
+    {
+      "id": "race.myco-choir",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "be8febf07533850f3b413316e17befa991746ba2211e4f67bf0816496b8d3107"
+    },
+    {
+      "id": "race.osmir-dreg",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "d8c58e27c359bccd477757b40030b643db0ed56d591de917b3ebe3a05023ff74"
+    },
+    {
+      "id": "race.siphon-naiad",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "196c20841fc6928dff0c49ed6b351fb04f7c6e51601237a85f452a576251e626"
+    },
+    {
+      "id": "race.zephyr-krel",
+      "plane": "B",
+      "kind": "race",
+      "leaf": "54a087e9152bd444825626be6c93fc3efa88d97df12dbf50fe613c77cfb707c5"
+    },
+    {
+      "id": "registry.aliases",
+      "plane": "B",
+      "kind": "aliases",
+      "leaf": "919ac1f97e27c23912b196ad1ef41df14be1f2d5469ccccfb741fb55547e92c3"
+    },
+    {
+      "id": "render.01",
+      "plane": "D",
+      "kind": "render",
+      "leaf": "4037436d5a4c8a69b7499a41a0c5df90f7b6c965468adcfeb48b31bfc0eb4eff"
+    },
+    {
+      "id": "render.02",
+      "plane": "D",
+      "kind": "render",
+      "leaf": "2ea8dd75cf333efb421833daf4302a653df42f7fc023608418c7c1c458bfc044"
+    },
+    {
+      "id": "render.03",
+      "plane": "D",
+      "kind": "render",
+      "leaf": "720dd8e34a6181cbedbdefc06fbd50f8049a536f34b0fe0c8df2c67cfd38dca3"
+    },
+    {
+      "id": "render.04",
+      "plane": "D",
+      "kind": "render",
+      "leaf": "0a07dde92fa2115f206c7aca819dc1837d8d537ffcdf561a9c42822dc0376483"
+    },
+    {
+      "id": "render.05",
+      "plane": "D",
+      "kind": "render",
+      "leaf": "1f691fb8c0b3682fdef6c84f4c6b5ec6e71ffa6b32f1c5ec207f1b5dbb9ecf57"
+    },
+    {
+      "id": "storyteller.system-main",
+      "plane": "D",
+      "kind": "system-main",
+      "leaf": "7f5d2aa4b7f4f5d461728a63136a4969d2b9716f0338a8eb6bde9bb0f6a30f2a"
+    },
+    {
+      "id": "world.aethel-4b",
+      "plane": "B",
+      "kind": "world",
+      "leaf": "f16e4df4a81e58c752c93d8e7ee051eb0de4a3395713407501b3b960ef82ea47"
+    },
+    {
+      "id": "world.altitude-matrix",
+      "plane": "B",
+      "kind": "world",
+      "leaf": "680d1d89739a2c5a2eee2c3f3e934239611ba81501d96330929ee2a52e482b67"
+    }
+  ],
+  "fingerprint": {
+    "signature": "BWA_15.2003075_SOV_96.7Hz_SHA-BEWA_69912070",
+    "bundle": "assets/js/codex.min.js",
+    "bundle_pre_banner_sha256": "c9fdea4f514c823ef138ca2aed0467060f9078021498c9f4dfee642b3d53eb89",
+    "stylesheet_pre_banner_sha256": "47a309d36f8c3f195977480bf25633773ef2b9b1b620b1be43aca3fe5172c590"
+  }
+}
